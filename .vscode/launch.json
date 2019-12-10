@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "request": "attach",
+        "name": "Node: Nodemon",
+        "processId": "${command:PickProcess}",
+        "restart": true,
+        "protocol": "inspector",
+    },
+      {
+        "type": "chrome",
+        "request": "launch",
+        "name": "Chrome",
+        "url": "http://localhost:3000",
+        "webRoot": "${workspaceRoot}/client/src/index.js",
+        "breakOnLoad": true
+  
+      }
+    ],
+    // "compounds": [
+    //   {
+    //     "name": "Full-stack",
+    //     "configurations": ["Node", "Chrome"]
+    //   }
+    // ]
+  }
