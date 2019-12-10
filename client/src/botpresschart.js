@@ -63,7 +63,7 @@ class botpresschart extends Component {
   }
   demo(){
 
-    var url='http://betaapplication.com/doctelloo/backend/web/index.php/v1/users/user-login-password';
+    var url='';
 
     fetch(url, {
       method: 'POST',
@@ -71,8 +71,8 @@ class botpresschart extends Component {
       'Content-Type': 'application/x-www-form-urlencoded', // <-- Specifying the Content-Type
       }),     
       body: 'json=' + JSON.stringify([{      
-          "userPinNo": "123456",
-          "userMobile": "9824488111",
+          "userPinNo": "",
+          "userMobile": "",
           "languageID": "1",
           "userDeviceID": "token",
           "apiType": "Web",
