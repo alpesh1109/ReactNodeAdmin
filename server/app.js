@@ -17,7 +17,7 @@ const database = {
   connection: {
     host: "127.0.0.1", // Your local host IP
     user: "postgres", // Your postgres user name
-    password: "Jemmy", // Your postrgres user password
+    password: "", // Your postrgres user password
     database: "botpress" // Your database name
   }
 };
