@@ -51,7 +51,7 @@
     "react-table": "^6.9.0",
     "react-transition-group": "^1.2.1",
     "reactstrap": "^7.1.0",
-    "recharts": "^1.6.2",
+    "recharts": "^2.1.14",
     "redux": "^4.0.1",
     "redux-thunk": "^2.3.0",
     "sqlite3": "^4.0.9",
